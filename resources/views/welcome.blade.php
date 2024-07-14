@@ -6,7 +6,7 @@
 
 @section('body')
     <div class="">
-        <p class="">baba loknath</p>
+        <p class="text-3xl font-bold"> loknath</p>
     </div>
 @endsection
 

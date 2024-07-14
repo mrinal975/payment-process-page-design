@@ -18,8 +18,7 @@
 
     <link rel="icon" href="{{ asset('assets/img/master-card.png') }}" sizes="32x32" type="image/png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" defer>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="{{asset('assets/css/tailwind.min.css')}}" rel="stylesheet" defer>
     <title>Master-card</title>
 
     <!-- Meta Pixel Code -->
