@@ -28,7 +28,7 @@
     @yield('page-specific-css')
 </head>
 
-<body class="container mx-auto" >
+<body class="" >
 <!-- Google Tag Manager (noscript) -->
 <!-- End Google Tag Manager (noscript) -->
 
@@ -40,7 +40,7 @@
                 <img src="{{ asset('assets/img/master-card.png') }}" alt="Mastercard Logo" class="h-16 w-auto">
             </div>
             <div class="flex flex-col border-l border-gray-400 pl-4">
-            <div class="text-white font-semibold">
+            <div class="text-white font-semibold text-2xl">
                 ID Theft Protection
             </div>
             <div class="text-gray-300 text-sm">
