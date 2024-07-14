@@ -38,10 +38,9 @@
                         <i class="fas fa-eye-slash text-gray-500"></i>
                     </span>
                 </div>
-
                 <label for="confirm-password" class="block text-gray-700 mb-2">Confirm Password</label>
                 <div class="relative mb-4">
-                    <input type="password" id="confirm-password" name="confirm-password" class="border border-gray-300 p-2 w-full rounded pr-10" placeholder="Confirm Password">
+                    <input type="password" id="confirm-password" name="confirm-password" class="border border-gray-300 p-2 w-full rounded pr-10">
                     <span class="absolute inset-y-0 right-0 pr-3 flex items-center cursor-pointer" onclick="togglePasswordVisibility('confirm-password')">
                         <i class="fas fa-eye-slash text-gray-500"></i>
                     </span>
