@@ -25,6 +25,17 @@
 
     <!-- End Meta Pixel Code -->
 
+    <style>
+        .bg-primary{
+            background-color: #DA5A00;
+        }
+        .border-primary{
+            border-color: #EAAA86
+        }
+        .text-primary{
+            color: #EAAA86
+        }
+        </style>
     @yield('page-specific-css')
 </head>
 
