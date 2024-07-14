@@ -17,8 +17,13 @@
 
 
     <link rel="icon" href="{{ asset('assets/img/master-card.png') }}" sizes="32x32" type="image/png">
-    <!-- Bootstrap CSS -->
-    <link href="{{asset('assets/css/tailwind.min.css')}}" rel="stylesheet" defer>
+    <!-- Tailwind CSS -->
+    {{-- <link href="{{asset('assets/css/tailwind.min.css')}}" rel="stylesheet" defer> --}}
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
     <title>Master-card</title>
 
     <!-- Meta Pixel Code -->
