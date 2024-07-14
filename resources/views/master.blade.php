@@ -28,9 +28,29 @@
     @yield('page-specific-css')
 </head>
 
-<body>
+<body class="container mx-auto" >
 <!-- Google Tag Manager (noscript) -->
 <!-- End Google Tag Manager (noscript) -->
+
+<!-- resources/views/navbar.blade.php -->
+<nav class="bg-black py-4">
+    <div class= "flex items-center justify-between">
+        <div class="flex items-center">
+            <div class="mr-3 pl-6">
+                <img src="{{ asset('assets/img/master-card.png') }}" alt="Mastercard Logo" class="h-16 w-auto">
+            </div>
+            <div class="flex flex-col border-l border-gray-400 pl-4">
+            <div class="text-white font-semibold">
+                ID Theft Protection
+            </div>
+            <div class="text-gray-300 text-sm">
+                An Iris Powered by Generali service
+            </div>
+        </div>
+        </div>
+
+    </div>
+</nav>
 
 
 @yield('body')

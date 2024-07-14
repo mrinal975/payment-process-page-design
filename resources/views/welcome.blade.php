@@ -5,9 +5,7 @@
 @endsection
 
 @section('body')
-    <div class="">
-        <p class="text-3xl font-bold"> loknath</p>
-    </div>
+
 @endsection
 
 @section('page-specific-js')
