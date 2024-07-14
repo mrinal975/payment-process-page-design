@@ -27,7 +27,7 @@
             </p>
             <form>
                 <label for="card-number" class="block text-gray-700 mb-2">16-Digit Card Number</label>
-                <input type="text" id="card-number" name="card-number" maxlength="16" class="border border-red-500 p-2 w-full rounded mb-4" placeholder="****************">
+                <input type="text" id="card-number" name="card-number" maxlength="16" class="border border-primary p-2 w-full rounded mb-4" placeholder="****************">
                 <button type="submit" class="bg-primary text-white py-1 px-4 rounded w-full mb-3">Verify</button>
             </form>
             <div class="">
