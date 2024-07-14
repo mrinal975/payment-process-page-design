@@ -8,7 +8,7 @@
 
  <div class="bg-cover-custom ">
     <div class="bg-cover-custom flex justify-center items-start min-h-screen p-4">
-        <div class="bg-white p-8 rounded-lg shadow-md max-w-md w-full mt-4">
+        <div class="bg-white p-8 rounded shadow-md max-w-md md:max-w-md lg:max-w-lg w-full mt-4">
             <h1 class="text-4xl font-bold mb-4">Welcome to your new Identity Protection Program!</h1>
             <p class="text-gray-400 mb-4">We are now monitoring the following information:</p>
             <ul class="mb-4">
@@ -22,7 +22,7 @@
                 </li>
             </ul>
             <div class=" p-4 rounded mb-4" style="background-color: #E7E5DF">
-                <h2 class="text-lg font-semibold mb-2">What's next?</h2>
+                <h2 class="text-2xl font-semibold mb-2">What's next?</h2>
                 <p class="text-gray-400 mb-4">To further enhance your protection, add more monitoring items.</p>
                 <button class="bg-primary text-white py-2 px-4 rounded w-full">Add Monitoring Items</button>
             </div>
