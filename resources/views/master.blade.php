@@ -31,6 +31,14 @@
     <!-- End Meta Pixel Code -->
 
     <style>
+        .bg-cover-custom {
+            background-image: url('assets/img/bg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .backdrop-blur {
+            backdrop-filter: blur(8px);
+        }
         .bg-primary{
             background-color: #DA5A00;
         }

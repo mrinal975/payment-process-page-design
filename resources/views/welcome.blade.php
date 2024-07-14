@@ -2,16 +2,6 @@
 @section('page-specific-css')
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <style>
-        .bg-cover-custom {
-            background-image: url('assets/img/bg.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-        .backdrop-blur {
-            backdrop-filter: blur(8px);
-        }
-    </style>
 @endsection
 
 @section('body')
