@@ -109,7 +109,7 @@
             const strengthBar = document.getElementById('password-strength-bar');
             let strength = 0;
 
-            if (password.length >= 6) strength += 1;
+            if (password.length >= 10) strength += 1;
             if (password.match(/[a-z]+/)) strength += 1;
             if (password.match(/[A-Z]+/)) strength += 1;
             if (password.match(/[0-9]+/)) strength += 1;
@@ -146,6 +146,11 @@
                 document.querySelector('#password-lock-icon i').classList.add('fa-lock');
                 document.getElementById('password-lock-icon').classList.remove('text-red-500');
                 document.getElementById('password-lock-icon').classList.add('text-green-500');
+            }else{
+                document.querySelector('#password-lock-icon i').classList.add('fa-lock-open');
+                document.querySelector('#password-lock-icon i').classList.remove('fa-lock');
+                document.getElementById('password-lock-icon').classList.add('text-red-500');
+                document.getElementById('password-lock-icon').classList.remove('text-green-500');
             }
         }
 
