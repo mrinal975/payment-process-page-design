@@ -13,18 +13,18 @@
             <p class="text-gray-400 mb-4">We are now monitoring the following information:</p>
             <ul class="mb-4">
                 <li class="flex items-center mb-2">
-                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                    <i class="fas fa-check-circle mr-2" style="color: #afd440"></i>
                     <span class="text-gray-700">Name:</span>
                 </li>
                 <li class="flex items-center">
-                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                    <i class="fas fa-check-circle  mr-2" style="color: #afd440"></i>
                     <span class="text-gray-700">Username:</span>
                 </li>
             </ul>
             <div class=" p-4 rounded mb-4" style="background-color: #E7E5DF">
                 <h2 class="text-2xl font-semibold mb-2">What's next?</h2>
                 <p class="text-gray-400 mb-4">To further enhance your protection, add more monitoring items.</p>
-                <button class="bg-primary text-white py-2 px-4 rounded w-full">Add Monitoring Items</button>
+                <button class="bg-primary text-white py-1 px-3 rounded w-full">Add Monitoring Items</button>
             </div>
         </div>
     </div>
